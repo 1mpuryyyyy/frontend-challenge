@@ -1,0 +1,28 @@
+.cats-list-container {
+  width: 100%;
+  flex: 1;
+  padding: 0 62px;
+}
+
+.cats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+  padding: 24px 0;
+}
+
+.cats-list__empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+.cats-list__loader {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
