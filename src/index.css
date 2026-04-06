@@ -1,0 +1,31 @@
+:root {
+  --light-red: #F24E1E;
+  --red: #FF3A00;
+  --blue: #2196F3;
+  --dark-blue: #1E88E5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
