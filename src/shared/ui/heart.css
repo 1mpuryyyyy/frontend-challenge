@@ -27,7 +27,7 @@
   stroke-width: 2;
 }
 
-.heart-icon:hover>path {
+.heart-icon:hover > path {
   fill: var(--light-red);
 }
 

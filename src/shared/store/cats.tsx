@@ -16,9 +16,7 @@ export const CatsStoreProvider = ({ children }: { children: ReactNode }) => {
   };
 
   return (
-    <CatsStoreContext.Provider value={{ allCats, addCats }}>
-      {children}
-    </CatsStoreContext.Provider>
+    <CatsStoreContext.Provider value={{ allCats, addCats }}>{children}</CatsStoreContext.Provider>
   );
 };
 
