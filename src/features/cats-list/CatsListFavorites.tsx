@@ -21,9 +21,7 @@ export const CatsListFavorites = () => {
         ))}
       </div>
 
-      {favoriteCats.length === 0 && (
-        <div className="cats-list__empty">Нет избранных котиков</div>
-      )}
+      {favoriteCats.length === 0 && <div className="cats-list__empty">Нет избранных котиков</div>}
     </div>
   );
 };
