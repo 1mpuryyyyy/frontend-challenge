@@ -53,7 +53,11 @@ export const CatsListFavorites = () => {
         <div className="cats-list__empty">Нет избранных котиков</div>
       )}
 
-      {isLoading && <div className="cats-list__loader"><p>... загружаем избранные котиков ...</p></div>}
+      {isLoading && (
+        <div className="cats-list__loader">
+          <p>... загружаем избранные котиков ...</p>
+        </div>
+      )}
     </div>
   );
 };
